@@ -1,0 +1,256 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    line-height: 1.5;
+}
+
+img{
+    max-width: 100%;
+}
+header {
+
+    position: sticky;
+    top: 0px;
+    background-color: #fff;
+    z-index: 2;
+    padding: 16px 16px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header .large-text {
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 11px;
+
+}
+
+header .logo {
+
+    margin-left: 15px;
+    letter-spacing: 10px;
+
+}
+
+
+
+
+
+
+
+
+header ul li {
+    list-style-type: none;
+    display: inline-block;
+    letter-spacing: 4px;
+}
+
+
+
+header .header-block a {
+    color: #000;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.1s;
+    padding: 8px 16px;
+}
+
+header .header-block a:hover {
+    background-color: rgba(0, 0, 0, 0.226);
+}
+
+.main-image-wrapper {
+    position: relative;
+}
+
+.main-image-wrapper .text {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+    transform: translateX(-50%);
+
+}
+
+.main-image-wrapper .large-text {
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.747);
+    padding: 8px 16px;
+
+}
+
+
+
+.card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 70px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    
+}
+   
+
+
+.project-section .title{
+    border-bottom: 1px solid rgb(173, 170, 170)!important;
+    padding: 20px 0;
+    font-size: x-large;
+    margin-top: 15px;
+}
+
+.section {
+    padding: 30px;
+}
+.card-wrapper .card{
+    flex-basis: 25%;
+    position: relative;
+    margin-bottom: 16px;
+}
+.card-wrapper .card-gap{
+    padding: 0 8px;
+}
+.card-wrapper .card-title {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    top: 0;
+    left: 8px;
+   
+}
+
+.about-section .title{
+
+    color: rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(173, 170, 170)!important;
+    font-size: x-large;
+    padding-top: 16px!important;
+    padding-bottom: 16px!important;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.about-section .explained-title{
+    color: rgb(0, 0, 0);
+    padding-bottom: 50px;
+}
+.about-section .contaner{
+
+display:flex;
+width: 100%;
+flex-basis: 25%;
+padding: 0 8px;
+margin: 10px;
+
+}
+.about-section .large-card{
+    padding: 0px 8px;
+    filter: grayscale(75%);
+    
+}
+.about-section .name{
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: x-large;
+}
+
+.about-section .title-opacity{
+    opacity: 0.60;
+    padding-bottom: 10;
+}
+.about-section .des{
+    padding-bottom: 20;
+}
+
+.about-section .link{
+    color: #000;
+    background-color: #f1f1f1!important;
+    list-style-type: none;
+    width: 100%;
+    text-decoration: none;
+    padding: 10px 105px;
+    font: inherit;
+   
+}
+
+.about-section a:hover{
+    background-color: #cccccc!important;
+}
+
+.contant-section .title{
+    border-bottom: 1px solid rgb(173, 170, 170)!important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size:24px;
+}
+.contant-section .input-address{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.contant-section input{
+    width: 100%;
+    padding-bottom: 10;
+    padding-top: 10;
+    padding-left: 7;
+   
+
+    
+}
+.contant-section .input{
+    padding: 10px;
+}
+
+.contant-section button{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    padding-top: 11px;
+    padding-bottom: 9px;
+    padding-left: 10;
+    padding-right: 10;
+    margin: 10px;
+    border: none
+}
+
+.contant-section button:hover{
+    color: #000;
+    background-color: #ccc;
+}
+
+.map{
+    padding-left: 30;
+    padding-right: 30;
+    padding-bottom: 10;
+}
+
+
+.footer{
+    color: rgb(255, 255, 255);
+    background-color: #000;
+    padding-top: 20;
+    padding-bottom: 20;
+    text-align: center!important;
+}
+
+.footer a:hover{
+    color: rgb(56, 158, 36);
+}
+
+.footer a{
+    color: #fff;
+}
